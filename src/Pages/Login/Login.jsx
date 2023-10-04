@@ -32,6 +32,14 @@ const Login = () => {
 
 
     }
+
+    // forget password
+
+    const handlePassword = () => {
+        console.log('click');
+    }
+
+
   return (
       <div>
           <Navbar></Navbar>
@@ -52,7 +60,7 @@ const Login = () => {
     </button>
     </form>
     <div className="flex items-baseline justify-between text-sm font-semibold">
-        <a href="#" className="hover:underline">Forgot Password?</a>
+        <a onClick={handlePassword} href="#" className="hover:underline">Forgot Password?</a>
           <NavLink to='/register'
              className="hover:underline">Create account</NavLink>
     </div>

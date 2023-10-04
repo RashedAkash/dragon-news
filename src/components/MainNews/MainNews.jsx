@@ -3,7 +3,7 @@ import { FaEye } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const MainNews = ({ news }) => {
-	console.log(news);
+	
 	const { title,author,rating,image_url,total_view ,details,_id} = news;
   return (
     <div className=' mb-5 '>
